@@ -22,8 +22,7 @@ const getWorkingDays = async () => {
             workingDays++;
         }
     }
-    console.log(workingDays);
-    return workingDays;
+    msg.textContent = String(workingDays);
 }
 
 getWorkingDays();
